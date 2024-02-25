@@ -1,6 +1,6 @@
 import sqlite3,pandas as pd, csv, numpy as np
 
-conexion = sqlite3.connect('C:/Users/RANGE/Desktop/taller_clasificacion_ml-main/datos_sensores.db')
+conexion = sqlite3.connect(r'D:\Python2\datos_sensores.db')
 
 query = """
 SELECT 
